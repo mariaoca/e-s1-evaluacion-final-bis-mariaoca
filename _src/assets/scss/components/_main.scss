@@ -1,0 +1,38 @@
+.page_main {
+    height: 100vh;
+    background: url('../images/hero.jpeg') center no-repeat $color-white;
+    background-size: cover;
+
+}
+.main_container {
+    width:161px ;
+    height:108px;
+   
+    
+}
+.main_title {
+    color:$color-white;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: normal; 
+    padding: 129px 139px 129px 20px; 
+}
+@media all and (min-width:768px){
+    
+    .main_title {
+        font-size: 60px;
+        padding: 311px 416px 310px 30px;
+    }
+    .main_container {
+        width: 322px;
+        height: 213px;
+    }
+}
+@media all and (min-width: 1024px){
+    .main_title{
+        padding: 311px 652px 310px 50px;
+    }
+}
+
