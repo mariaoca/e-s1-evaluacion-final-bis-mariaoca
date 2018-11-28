@@ -3,21 +3,24 @@
     background-position: 67% 0%;
     background-size: cover;
     height: 100vh;
-    
+
 }
 .main_container {
     width:161px ;
     height:108px;
 }
+  
 .main_title {
     color:$color-white;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
     text-transform: capitalize;
     font-weight: bold;
-    line-height: normal; 
-    //padding: 129px 139px 129px 20px; 
+    line-height: normal;
+  
 }
+    //padding: 129px 139px 129px 20px; 
+
 @media all and (min-width:768px){
     .page_main{
         background-position: 63% 0%;
