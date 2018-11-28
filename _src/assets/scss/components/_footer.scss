@@ -4,23 +4,27 @@
     color:$color-grey;
     position: relative;
     height: 90px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
 }
 .footer_text {
-    //padding: 34px 105px 37px 106px;
-    margin:0;
     font-family:'Rubik', sans-serif;
     font-size:16px;
+    background: red;
+    width: 109px;
+    margin:34px 105px 37px 106px;
 
 }
 
 @media all and (min-width:768px){
-    .footer_text{
-        //padding: 34px 329px 37px 330px;
+    .footer_text{ 
+        margin: 34px 329px 37px 330px;
     }
 }
 @media all and (min-width:1024px){
     .footer_text{
-        //padding: 34px 439px 37px 440px;
+        margin: 34px 439px 37px 440px;
     }
 }
 
